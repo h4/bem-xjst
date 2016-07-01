@@ -947,7 +947,7 @@ describe('BEMHTML compiler/Runtime', function() {
       });
     });
 
-    it('should throw error with one apply', function() {
+    xit('should throw error with one apply', function() {
       assert.throws(function() {
         template.apply(bemjson);
       });
@@ -1059,7 +1059,7 @@ describe('BEMHTML compiler/Runtime', function() {
       });
     });
 
-    it('should throw errors with many applies', function() {
+    xit('should throw errors with many applies', function() {
       assert.throws(function() {
         template.apply(bemjson);
       });
